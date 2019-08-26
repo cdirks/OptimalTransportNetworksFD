@@ -4,7 +4,7 @@
 
 The code implements the method proposed in [[1]](), Chapter 4.3, for solving the branched transport [[2]](http://www.uvm.edu/pdodds/research/papers/others/2003/xia2003a.pdf),[[3]](https://pdfs.semanticscholar.org/d766/7ac83e8dd7c8ce452fe63775a3ddd705efd9.pdf) and urban planning [[4]](http://www.numdam.org/article/COCV_2005__11_1_88_0.pdf) problem via a convex reformulation as a Mumford–Shah-type image inpainting problem introduced by [[5]](https://arxiv.org/abs/1601.07402).
 
-The implementation is based on [Matlab](https://www.mathworks.com/products/matlab.html). 
+The problem was implemented using [Matlab](https://www.mathworks.com/products/matlab.html), Version R2018b. 
 
 
 ## Run example 
