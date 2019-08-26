@@ -9,7 +9,12 @@ The problem was implemented using [Matlab](https://www.mathworks.com/products/ma
 
 ## Run example 
 
-To run the code, open Matlab and execute Example.m. This will compute a simple example of branched transport from one point source to two point sinks with equal mass. For an other example or a different setting, the following parameters can be changed within the example file:
+To run the code, open Matlab and build the mex files used for the projection via 
+
+	mex MSprojectBTmex.cpp
+	mex MSprojectUPmex.cpp
+	
+then execute execute Example.m. This will compute a simple example of branched transport from one point source to two point sinks with equal mass. For an other example or a different setting, the following parameters can be changed within the example file:
 
 	type: Example type (BT or UP)
 	n: Image size (n by n grid) 
